@@ -7,7 +7,7 @@ class PaddingExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Aula sobre padding'),
+        title: const Text('Aula sobre padding e alignment'),
       ),
       body: Column(
         children: [
@@ -16,7 +16,7 @@ class PaddingExample extends StatelessWidget {
             child: Column(
               children: [
                 const Text(
-                  'Space around example',
+                  'Alignment Space around example',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 16,
@@ -50,7 +50,7 @@ class PaddingExample extends StatelessWidget {
             child: Column(
               children: [
                 const Text(
-                  'SpaceEvenly example',
+                  'Alignment SpaceEvenly example',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 16,
@@ -84,7 +84,7 @@ class PaddingExample extends StatelessWidget {
             child: Column(
               children: [
                 const Text(
-                  'Space Bettween example',
+                  'Alignment Bettween example',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 16,
