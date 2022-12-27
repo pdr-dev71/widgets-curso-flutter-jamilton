@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_examples/aula_buttons.dart';
 import 'package:widgets_examples/aula_column_and_row.dart';
+import 'package:widgets_examples/aula_inputs.dart';
 import 'package:widgets_examples/aula_margin.dart';
 import 'package:widgets_examples/aula_padding_e_alignment.dart';
 import 'package:widgets_examples/aula_text_format.dart';
@@ -28,6 +29,7 @@ class _MyAppState extends State<MyApp> {
         'Buttons': ((context) => const Buttons()),
         'Padding': ((context) => const PaddingExample()),
         'Margin': ((context) => const MarginExamples()),
+        'Inputs': ((context) => const AulaInputs()),
       },
     );
   }
@@ -77,6 +79,12 @@ class _HomeState extends State<Home> {
             child: ListTile(
               title: const Text('Aula sobre margens'),
               onTap: () => Navigator.of(context).pushNamed('Margin'),
+            ),
+          ),
+          Card(
+            child: ListTile(
+              title: const Text('Aula sobre componentes de entrada'),
+              onTap: () => Navigator.of(context).pushNamed('Inputs'),
             ),
           ),
         ],
